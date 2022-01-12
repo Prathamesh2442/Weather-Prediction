@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.maindiv{
+    height: 28rem;
+    width: 25rem;
+    background-color: darkslateblue;
+    padding: 2rem 1rem;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.firstdiv{
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.firstdiv input{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 2rem;
+    text-align: center;
+}
+.seconddiv{
+    height: 20rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.seconddiv svg{
+    color: yellow;
+}
+h2{
+    font-weight: 600;
+    font-size: 40px;
+    font-family: -webkit-pictograph;
+    color: crimson;
+    margin: 1rem auto;
+    z-index: 1000;
+}
+h3{
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 30px;
+    color: #fff;
+    margin: 1rem auto;
+    z-index: 1000;
+}
+p{
+    font-weight: 600;
+    font-family: monospace;
+    font-size: 18px;
+    color:#2e2e2e;
+    margin: 1rem auto;
+    z-index: 1000;
+}
+.first{
+    background-color: turquoise;
+    height: 30rem;
+    width: 49rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 62%;
+    left: -40%;
+    opacity: .2;
+    animation: animate 10s linear infinite;
+}
+.second{
+    background-color: turquoise;
+    height: 30rem;
+    width: 49rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: -60%;
+    opacity: .3;
+    animation: animate 7s linear infinite;
+}
+.third{
+    background-color: turquoise;
+    height: 30rem;
+    width: 49rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 64%;
+    left: -25%;
+    opacity: .1;
+    animation: animate 16s linear infinite;
+}
+.error{
+    font-weight: 600;
+    font-family: -webkit-pictograph;
+    font-size: 18px;
+    color: #fff;
+    margin: 1rem auto;
+    z-index: 2000;
+    margin-top: 10rem;
+    margin-left: 5.5rem;
+    color: red;
+    font-size: 2rem;
+}
+
+@keyframes animate {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(180deg);
+    }
+}
