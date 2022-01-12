@@ -1,4 +1,4 @@
-**Live Weather Location using ReactJs
+**Live Weather Prediction using ReactJs
 
 Fetches Temperature with location name, Min-Temp and Max-Temp using API.
 
