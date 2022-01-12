@@ -1,6 +1,6 @@
 **Live Weather Prediction using ReactJs
 
-Fetches Temperature with location name, Min-Temp and Max-Temp using API.
+Fetches Temperature with location name, Pressure, Humidity, Min-Temp and Max-Temp using API.
 
 ![Screenshot (138)](https://user-images.githubusercontent.com/78137711/149131392-b7878e6a-0cf1-466a-9c0b-4c6bee475bba.png)
 
