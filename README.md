@@ -2,7 +2,7 @@
 
 Fetches Temperature with location name, Min-Temp and Max-Temp using API.
 
-![Screenshot (137)](https://user-images.githubusercontent.com/78137711/149129066-015f776a-2d00-4c94-ac92-82473cc17b75.png)
+![Screenshot (138)](https://user-images.githubusercontent.com/78137711/149131392-b7878e6a-0cf1-466a-9c0b-4c6bee475bba.png)
 
 About:-
 Prathamesh Karanjkar
