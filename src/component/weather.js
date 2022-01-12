@@ -38,6 +38,9 @@ const Weather = () => {
                         <h2>{Search}</h2>
                         <h3>{City.temp} °C</h3>
                         <p>Min  {City.temp_min} °C | Max {City.temp_max} °C</p>
+                        <p>Pressure {City.pressure} hPa</p>
+                        <p>Humidity {City.humidity} %</p>
+
                     </div>
                 )
                 }
